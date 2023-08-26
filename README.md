@@ -23,5 +23,6 @@ If no build was found nothing is run.
 _build_standalone_win64.py
 
 This script will generate a new build for a given scene.
+Note: This will only work for scenes that have been added to the build window within the Unity Editor
 
 => py ./_build_standalone_win64.py -scene_to_build=name_of_scene
